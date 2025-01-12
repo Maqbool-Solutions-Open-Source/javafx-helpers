@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.signup.SingIn">
+    <children>
+        <ImageView fitHeight="165.0" fitWidth="291.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@sincerely-media-aUPLLA6o_3I-unsplash.jpg" />
+            </image>
+        </ImageView>
+        <Text layoutX="73.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welocme KG">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text fill="#e8a335" layoutX="62.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignIn to Continue">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+        <Text fill="#790a79" layoutX="15.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Text>
+        <Text layoutX="25.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="30.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Text>
+        <TextField layoutX="28.0" layoutY="261.0" style="-fx-pref-width: 200;" />
+        <TextField layoutX="28.0" layoutY="261.0" style="-fx-pref-width: 200;" />
+        <TextField layoutX="28.0" layoutY="261.0" promptText="Enter Your Email" style="-fx-pref-width: 200;" />
+        <Button layoutX="101.0" layoutY="371.0" mnemonicParsing="false" style="-fx-background-color: #790a79;" text="Log In" textFill="#fcf9f9">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+        <Text fill="#790a79" layoutX="35.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account? Sign Up">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Text>
+        <TextField layoutX="28.0" layoutY="329.0" promptText="Enter Your Password" style="-fx-pref-width: 200;" />
+    </children>
+</AnchorPane>
